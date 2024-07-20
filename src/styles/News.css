@@ -1,0 +1,241 @@
+.news-page{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
+/* .news-body{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+} */
+
+.principal-news{
+    height: 300px;
+    width: 50%;
+}
+
+.news-page:hover{
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.news-title{
+    margin-top: 5%;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.news-date{
+    font-size: xx-small;
+}
+
+.news-date-2{
+    font-size: 8px;
+    color: rgb(114, 112, 112);
+}
+
+.page-news{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.margin-news{
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    
+}
+
+.h1-news{
+    font-size: large;
+}
+
+.title-news{
+    font-family: "Montserrat", sans-serif;
+    /* margin-top: 5%; */
+    margin-bottom: 3%;
+}
+
+.container-news{
+    width: 70%;
+    height: 100%;
+    /* margin-bottom: 5%; */
+    /* box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    background-color: white; */
+    padding-top: 4%;
+    padding-bottom: 1.5%;
+}
+
+.date-news{
+    font-size: 9px;
+    display: flex;
+    justify-content: end;
+    font-weight: 500;
+}
+
+.text-news{
+    margin-top: 10%;
+}
+
+.all-news{
+    width: 70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: -15px;
+    /* box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3); */
+    -webkit-border-radius: -15px;
+    -moz-border-radius: -15px;
+    -ms-border-radius: -15px;
+    -o-border-radius: -15px;
+}
+
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    margin-top: 7%;
+    font-weight: 300;
+}
+
+.secondary-news{
+    width: 30%;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1025px){
+    
+}
+
+@media (max-width: 756.98px){
+    .principal-news{
+        height: 250px;
+    }  
+
+    .text{
+        font-size: large;
+    }
+
+    .secondary-news{
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    .news-title{
+        font-size: x-small;
+    }
+
+    .news-date-2{
+        font-size: 6px;
+    }
+
+    .title-news{
+        font-size: large;
+    }
+
+    .page-news{
+        height: 350px;
+    }
+
+    .text-news{
+        font-size: small;
+    }
+    .date-news{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 574.98px){
+    .principal-news{
+        height: 200px;
+    }  
+
+    .text{
+        font-size: medium;
+    }
+
+    .secondary-news{
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .news-title{
+        font-size: xx-small;
+    }
+
+    .news-date-2{
+        margin-top: -5px;
+        font-size: 5px;
+    }
+
+    .title-news{
+        font-size: medium;
+    }
+
+    .page-news{
+        height: 300px;
+    }
+
+    .text-news{
+        font-size: x-small;
+    }
+    .date-news{
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 444.98px){
+    .principal-news{
+        height: 150px;
+    }  
+
+    .text{
+        font-size: x-small;
+    }
+
+    .secondary-news{
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .news-title{
+        font-size: 5px;
+    }
+
+    .news-date-2{
+        margin-top: -3px;
+        font-size: 3px;
+    }
+
+    .date-news{
+        font-size: 4px;
+    }
+
+    .title-news{
+        font-size: small;
+    }
+
+    .page-news{
+        height: 200px;
+    }
+
+    .text-news{
+        font-size: 7px;
+    }
+}

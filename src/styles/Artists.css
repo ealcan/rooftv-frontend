@@ -1,0 +1,241 @@
+.card-artists{
+    display: flex;
+    align-items: center;
+    /*width: 60%;
+    *//*height: 20%;
+    */gap: 2%;
+    box-shadow:  0px -4px 12px rgba(51, 50, 50, 0.118);
+    background-color: white;
+    transition: transform 0.3s ease,     background-size 0.3s ease;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card-artists:hover{
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    box-shadow:  0px -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-artists-body{
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    /* border: solid; */
+    width: 90%;
+}
+
+.hidden-player {
+    width: 0;
+    height: 0;
+    display: none; /* Esconde completamente el reproductor */
+  }
+
+.card-artists-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: solid 1px black;
+}
+
+.name-artists{
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    font-family: "Shadows Into Light";
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.artists-body{
+    background-color: rgb(243, 240, 238);
+    padding-bottom: 2%;
+}
+
+.card-artist{
+    /* display: flex; */
+    align-items: center;
+    width: 80%;
+    /*margin-bottom: 2%;
+    */height: 50%;
+    gap: 2%;
+    /* padding: 2%; */
+    box-shadow:  0px -4px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    transition: transform 0.3s ease,     background-size 0.3s ease;
+}
+
+.artist-body{
+    display: flex;
+    padding-bottom: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-artist-body{
+    /* flex-direction: column;
+    justify-content: center; 
+    text-align: center; */
+    /* border: solid; */
+    width: 100%;
+    padding: 2%
+}
+
+.card-artist-img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 300px;
+}
+
+.description-artist{
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Shadows Into Light"; */
+    font-size: small;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.name-artist{
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Shadows Into Light"; */
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.artist-video{
+    margin-top: 5%;
+}
+
+.audio-custom{
+    width: 80%;
+    height: 35px;
+}
+
+.videos-artist-container{
+    width: 60%;
+    margin-top: 5%;
+    padding: 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    height: 300px;
+}
+
+@media (max-width: 1025px){
+    .name-artists{
+        font-size: large;
+    }
+
+    .card-artists-img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 756.98px){
+    .name-artists{
+        font-size: medium;
+    }
+
+    .card-artists-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .audio-custom{
+        height: 25px;
+    }
+
+    .name-artist{
+        font-size: large;
+    }
+
+    .description-artist{
+        font-size: small;
+    }
+
+    .videos-artist-container{
+        height: 250px;
+    }
+}
+
+@media (max-width: 574.98px){
+    .name-artists{
+        font-size: small;
+    }
+
+    .card-artists-img{
+        width: 35px;
+        height: 35px;
+    }
+    .audio-custom{
+        height: 20px;
+    }
+
+    .name-artist{
+        font-size: medium;
+    }
+
+    .description-artist{
+        font-size: x-small;
+    }
+
+    .videos-artist-container{
+        height: 200px;
+    }
+
+    .card-top{
+        height: 200px;
+    }
+}
+
+@media (max-width: 444.98px){
+    .audio-custom{
+        height: 15px;
+    }
+
+    .name-artist{
+        font-size: small;
+    }
+
+    .description-artist{
+        font-size: 7px;
+    }
+
+    .videos-artist-container{
+        height: 150px;
+    }
+}

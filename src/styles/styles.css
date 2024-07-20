@@ -1,0 +1,583 @@
+.home{
+    /* background-color: rgba(191, 190, 190, 0.632); */
+    background-image: url('../assets/fondo-dj2.jpg');
+    /* background-image: url('../assets/fondo.PNG'); */
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+/* Header */
+
+.custom-navbar { 
+    background-color: rgb(255, 255, 255);
+    /* font-family: "Playfair Display", serif; */
+    /* font-family: "Lobster", sans-serif; */
+    /* font-family: "Shadows Into Light"; */
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Nunito", sans-serif;
+    height: 50px;
+    box-shadow:  0px -4px 12px rgba(0, 0, 0, 0.3);
+     /*Hacemos que la barra se quede fija*/
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000; 
+    display: flex;
+    align-items: center; */
+}
+
+.custom-image{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    height: 25px !important;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0px;
+}
+
+.logos{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.colorRojo{
+    /* color: rgb(235, 99, 99); */
+    color: black;
+    margin-right: 10px;
+    font-size: small;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.colorRojo:hover{
+    color: rgb(235, 99, 99);
+}
+
+.search{
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+
+.custom-toggle{
+    display: flex-end;
+    text-align: end;
+    position:absolute;
+    right:0;
+    margin-right: 1%;
+}
+
+/*Section 1*/
+
+.custom-carousel {
+    /* background-image: url('../assets/fondo.PNG'); 
+    background-size: cover; 
+    background-repeat: no-repeat; */
+    margin: auto;
+    padding: 5%;
+    /* margin-top: 50px; */
+}
+
+.event-image{
+    border-radius: 5% !important;
+    -webkit-border-radius: 5% !important;
+    -moz-border-radius: 5% !important;
+    -ms-border-radius: 5% !important;
+    -o-border-radius: 5% !important;
+    width: 50% !important;
+}
+
+
+/*Section2*/
+
+.news{
+    width: 70%;
+    height: 500px;
+    padding: 0px;
+    margin-bottom: 10%;
+}
+
+.news2{
+    width: 50%;
+    height: 60%;
+    float: right;
+}
+
+.new1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.new2{
+    width: 50%;
+    height: 40%;
+    float: right;
+}
+
+.new3{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.new4{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.border-new{
+    border: solid 2px white;
+    transition: transform 0.3s ease,     background-size 0.3s ease;
+    -webkit-transition: transform 0.3s ease,     background-size 0.3s ease;
+    -moz-transition: transform 0.3s ease,     background-size 0.3s ease;
+    -ms-transition: transform 0.3s ease,     background-size 0.3s ease;
+    -o-transition: transform 0.3s ease,     background-size 0.3s ease;
+}
+
+.border-new:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.margin-new{
+    margin-left: 5%;
+    margin-right: 20%;
+    color: white;
+    font-size: small;
+    text-shadow: 
+                -1px 0px 0 black,  
+                0px -1px 0 black,
+                -1px 0px 0 black,
+                0px 2px 0 black;
+}
+
+.title-new{
+    font-size: 22px;
+}
+
+.small-title-new{
+    font-size: 13px;
+}
+
+.date-new{
+    font-size: 10px;
+}
+
+.other-news-container{
+    border: solid 1px white;
+    height: 200px;
+    width: 70%;
+    padding: 0px;
+}
+
+.other-news{
+    border: solid 1px white;
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+.new-title{
+    font-family: "Playfair Display", serif;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 0px;
+}
+
+
+/*Section3*/
+
+.img-roof{
+    width: 300px;
+    margin-top: 100px;
+}
+
+.tituloArtistas{
+    display: flex;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 0%;
+    /* margin-top: 3%; */
+    background-color: white;
+    width: 35%;
+    height: 100px;
+    align-items: center;
+}
+
+.letraTituloArtistas{
+    /* font-family: "M PLUS Rounded 1c", sans-serif; */
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Shadows Into Light", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgba(9, 9, 9, 0.804);
+    margin-left: 10%;
+}
+
+.tituloRoof{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 80%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 10%;
+    margin-top: 10px;
+    background-color: rgba(248, 243, 234, 0.721); 
+    width: 40%;
+    height: 100px;
+    align-items: center;
+}
+
+.orangeRoof{
+    /* background-color: rgb(237, 93, 10); */
+    display: flex;
+    justify-content: center;
+}
+
+.roofDescription{
+    font-family: "Montserrat", sans-serif;
+    width: 60%;
+    color: white;
+    font-size: x-large;
+    margin-top: 4%;
+    margin-bottom: 15%;
+    text-shadow: 
+                0px 0px 0 black,  
+                0px 0px 0 black,
+                0px 0px 0 black,
+                0px 1px 0 black;
+}
+
+.video{
+    height: 500px;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.videoContainer {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.iconoVideo{
+    margin-left: 15%;
+    width: 70%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: solid 2px rgb(237, 93, 10);
+}
+
+.iconoVideo:hover{
+    opacity: 75%;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    background-color: none;
+    height: 100%;
+    gap:8%;
+
+}
+
+/*Footer*/
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 2%;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    /* border-top: solid 4px rgb(233, 233, 233); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.footer-redes{
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    border-right: solid;
+}
+
+.footer-redes h3{
+    font-weight: bold;
+    font-size: large;
+}
+
+.container-logos{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.contact{
+    width: 30%;
+    text-align: center;
+}
+
+.contact h3{
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact div{
+    font-size: small;
+}
+
+/*Posts*/
+.label-custom{
+    margin-top: 5%;
+    width: 70%;
+}
+.label-custom-description{
+    margin-top: 5%;
+    width: 70%;
+    height: 80%;
+}
+
+
+/*Menu*/
+
+.menu{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+/*Queries*/
+
+@media (max-width: 1025px){
+    .news{
+        height: 300px;
+    }
+
+    .title-new{
+        font-size: 15px;
+    }
+    
+    .small-title-new{
+        font-size: 8px;
+    }
+
+    .date-new{
+        font-size: 5px;
+    }
+
+    .new1{
+        background-size: cover!important;
+    }
+
+    .img-roof{
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    .roofDescription{
+        font-size: large;
+    }
+
+    .letraTituloArtistas{
+        font-size: x-large;
+    }
+
+    .tituloArtistas{
+        height: 60px;
+    }
+
+    .video{
+        height: 300px;
+        width: 75%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .custom-toggle{
+        text-align: center;
+        width: 30%;
+        background-color: rgba(255, 253, 252, 0.885);
+        border-bottom-left-radius: 10%;
+        border-top-left-radius: 10%;
+        z-index: 10;
+        margin-right: 0px;
+        color: white;
+        /* text-shadow: 
+                -1px -1px 0 rgb(235, 99, 99),  
+                1px -1px 0 rgb(235, 99, 99),
+                -1px 1px 0 rgb(235, 99, 99),
+                1px 1px 0 rgb(235, 99, 99) */
+    }
+    
+    .colorRojo:hover{
+        background-color: rgba(255, 253, 252, 0.885);
+        /* color: white;
+            text-shadow: 
+                -1px -1px 0 rgb(235, 99, 99),  
+                1px -1px 0 rgb(235, 99, 99),
+                -1px 1px 0 rgb(235, 99, 99),
+                1px 1px 0 rgb(235, 99, 99) */
+    }
+
+    .logos{
+        width: 50%;
+    }
+
+    .news{
+        height: 300px;
+    }
+
+    .container-footer{
+        height: 80px;
+    }
+
+    .footer-redes h3{
+        font-size: medium;
+    }
+    
+    .container-logos{
+        height: 20px;
+    }
+}
+
+@media (max-width: 756.98px){
+    .img-roof{
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    .roofDescription{
+        font-size: medium;
+    }
+
+    .letraTituloArtistas{
+        font-size: larger;
+    }
+
+    .tituloArtistas{
+        height: 50px;
+    }
+}
+
+@media (max-width: 541.98px){
+    .news{
+        height: 200px;
+    }
+
+    .title-new{
+        font-size: 10px;
+    }
+    
+    .small-title-new{
+        font-size: 5px;
+    }
+
+    .img-roof{
+        width: 60px;
+        margin-top: 25px;
+    }
+
+    .roofDescription{
+        font-size: x-small;
+    }
+
+    .letraTituloArtistas{
+        font-size: small;
+    }
+
+    .tituloArtistas{
+        height: 30px;
+    }
+
+    .video{
+        height: 150px;
+        width: 75%;
+    }
+
+    .footer-redes h3{
+        font-size: small;
+    }
+    
+    .container-logos{
+        height: 15px;
+        margin-top: -5px;
+    }
+}
+
+@media (max-width: 500.98px){
+    .news{
+        height: 100px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .letraTituloArtistas{
+        font-size: 12px;
+    }
+
+    .title-new{
+        font-size: 6px;
+    }
+    
+    .small-title-new{
+        font-size: 2.7px;
+    }
+
+    .date-new{
+        font-size: 1.5px;
+        margin-bottom: 2px;
+        margin-top: -4px;
+    }
+
+    .new-title{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 1%;
+        font-size: medium;
+    }
+}
+
