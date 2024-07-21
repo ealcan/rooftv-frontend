@@ -1,7 +1,7 @@
 import React from 'react'
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
-import VideoTemporal from '../assets/videos/video-promocional.mp4'
+// import VideoTemporal from '../assets/videos/video-promocional.mp4'
 
 
 const fetchProductById = async (id) => {
@@ -45,12 +45,12 @@ export const Product = () => {
             </div>
         </div>
         {/* <div className='container-fluid' style={{width: "90%", textAlign: "center", marginTop: "8%", marginBottom: "5%"}}>Descubre la {product.name}</div> */}
-        <div className='container-fluid' style={{width: "90%", marginTop: "5%"}}>
+        {/* <div className='container-fluid' style={{width: "90%", marginTop: "5%"}}>
             <video width="100%" className='custom-video' controls autoPlay muted style={{ borderRadius: '10px', height: "85%"}}>
                 <source src={VideoTemporal} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-        </div>
+        </div> */}
         <p className='container-fluid middle-info-shop'>También podría interesarte</p>
         <div className='container-fluid' style={{width: "90%", display: "flex", gap: "0.5%"}}>
         {products && products.map(product => (

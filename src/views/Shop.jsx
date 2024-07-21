@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from 'react-query';
-import VideoTemporal from '../assets/videos/video-promocional.mp4'
+// import VideoTemporal from '../assets/videos/video-promocional.mp4'
 
 const fetchShop = async () => {
     const response = await fetch('http://localhost:8080/merchandasing'); 
@@ -28,10 +28,10 @@ const Shop = () => {
 
   return (
     <div>
-        <video width="100%" className='custom-video' controls autoPlay muted style={{ borderRadius: '10px'}}>
+        {/* <video width="100%" className='custom-video' controls autoPlay muted style={{ borderRadius: '10px'}}>
             <source src={VideoTemporal} type="video/mp4" />
             Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className='container-fluid' style={{width: "80%", marginBottom: "5%"}}>
         {groupedProducts.map((group, rowIndex) => (
             <div key={rowIndex} style={{ marginTop: "5%", display: "flex", gap: "2%", justifyContent: "center"}}>
