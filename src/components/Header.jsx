@@ -1,8 +1,5 @@
 import React from 'react';
 import LogoRooftv from '../assets/roof-logo-png-2.png'
-import LogoInstagram from '../assets/logo-instagram.png'
-import LogoYoutube from '../assets/logo-youtube.png'
-import LogoSoundcloud from '../assets/logo-soundcloud.png'
 
 
 const Header = () => {
@@ -11,17 +8,6 @@ const Header = () => {
       <a className="navbar-brand" href="/" >
         <img className="custom-image img-fluid" src={LogoRooftv} alt="" />
       </a>
-      {/* <div className="logos">
-        <a href="https://www.instagram.com/roof.tv/">
-          <img src={LogoInstagram} alt="" style={{ width: '20px' }} />
-        </a>
-        <a href="https://www.youtube.com/channel/UCv6_ggrXxlTapYcjuaIho0w">
-          <img src={LogoYoutube} alt="" style={{ width: '20px' }} />
-        </a>
-        <a href="https://soundcloud.com/rooftv">
-          <img src={LogoSoundcloud} alt="" style={{ width: '20px' }} />
-        </a>
-      </div> */}
       <button
         className="navbar-toggler"
         type="button"
