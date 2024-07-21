@@ -34,7 +34,7 @@ const Header = () => {
         <span className="navbar-toggler-icon"></span>
         <ion-icon name="filter-outline"></ion-icon>
       </button>
-      <div className="collapse navbar-collapse separacion custom-toggle" id="navbarSupportedContent" style={{ position: 'relative' }}>
+      <div className="collapse navbar-collapse custom-toggle" id="navbarSupportedContent" style={{ position: 'relative' }}>
         <ul className="navbar-nav custom-toggle">
           <li className="nav-item">
             <a className="nav-link colorRojo" href="/">
