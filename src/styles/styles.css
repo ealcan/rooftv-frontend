@@ -437,17 +437,13 @@
 @media (max-width: 991.98px){
     .custom-toggle{
         text-align: center;
-        width: 40%;
+        width: 70%;
         background-color: rgba(255, 253, 252, 0.936);
         border-bottom-left-radius: 10%;
         border-top-left-radius: 10%;
         z-index: 10;
         margin-right: 0px;
-        /* text-shadow: 
-                -1px -1px 0 rgb(235, 99, 99),  
-                1px -1px 0 rgb(235, 99, 99),
-                -1px 1px 0 rgb(235, 99, 99),
-                1px 1px 0 rgb(235, 99, 99) */
+        padding-left: 25%;
     }
 
     .colorRojo{
@@ -455,8 +451,6 @@
         margin-bottom: 10%;
     }
     
-    
-
     .logos{
         width: 50%;
     }
