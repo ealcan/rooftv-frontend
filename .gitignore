@@ -22,4 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/assets
+src/assets/audios
+src/assets/videos
