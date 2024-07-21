@@ -75,6 +75,7 @@
     margin-right: 21%;
 }
 
+
 /*Section 1*/
 
 .custom-carousel {
@@ -436,29 +437,25 @@
 @media (max-width: 991.98px){
     .custom-toggle{
         text-align: center;
-        width: 30%;
-        background-color: rgba(255, 253, 252, 0.885);
+        width: 40%;
+        background-color: rgba(255, 253, 252, 0.936);
         border-bottom-left-radius: 10%;
         border-top-left-radius: 10%;
         z-index: 10;
         margin-right: 0px;
-        color: white;
         /* text-shadow: 
                 -1px -1px 0 rgb(235, 99, 99),  
                 1px -1px 0 rgb(235, 99, 99),
                 -1px 1px 0 rgb(235, 99, 99),
                 1px 1px 0 rgb(235, 99, 99) */
     }
-    
-    .colorRojo:hover{
-        background-color: rgba(255, 253, 252, 0.885);
-        /* color: white;
-            text-shadow: 
-                -1px -1px 0 rgb(235, 99, 99),  
-                1px -1px 0 rgb(235, 99, 99),
-                -1px 1px 0 rgb(235, 99, 99),
-                1px 1px 0 rgb(235, 99, 99) */
+
+    .colorRojo{
+        font-size: large;
+        margin-bottom: 10%;
     }
+    
+    
 
     .logos{
         width: 50%;
@@ -478,6 +475,14 @@
     
     .container-logos{
         height: 20px;
+    }
+    
+    .contact h3{
+        font-size: medium;
+    }
+
+    .contact div{
+        font-size: x-small;
     }
 }
 
@@ -542,6 +547,14 @@
     .container-logos{
         height: 15px;
         margin-top: -5px;
+    }
+
+    .contact h3{
+        font-size: small;
+    }
+
+    .contact div{
+        font-size: xx-small;
     }
 }
 
